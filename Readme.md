@@ -14,6 +14,7 @@ On the input window you should insert:
 
 ## Example of input command
 
+```rst
 5 3
 1 1 E
 RFRFRFRF
@@ -21,6 +22,7 @@ RFRFRFRF
 FRRFLLFFRRFLL
 0 3 W
 LLFFFLFLFL
+```
 
 This command will deploy three robots
 
