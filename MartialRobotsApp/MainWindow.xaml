@@ -1,0 +1,17 @@
+﻿<Window x:Class="MartialRobotsApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MartialRobotsApp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="349" Width="575">
+    <Grid>
+        <TextBlock x:Name="txtBlockOutput" HorizontalAlignment="Left" Margin="346,69,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="200" Width="220"/>
+        <Button x:Name="btnDeployRobot" Content="Deploy Robot" HorizontalAlignment="Center" Margin="0,103,0,0" VerticalAlignment="Top" Click="Button_Click" Height="32" Width="99"/>
+        <TextBox x:Name="txtBoxInput" HorizontalAlignment="Left" Margin="10,59,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="220" AcceptsReturn="True" Height="220" Text="5 3&#xD;&#xA;1 1 E&#xD;&#xA;RFRFRFRF&#xD;&#xA;3 2 N&#xD;&#xA;FRRFLLFFRRFLL&#xD;&#xA;0 3 W&#xD;&#xA;LLFFFLFLFL"/>
+        <Label x:Name="lblInput" Content="Enter your commands:" HorizontalAlignment="Left" Margin="10,28,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblResult" Content="Result:" HorizontalAlignment="Left" Margin="346,28,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
