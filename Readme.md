@@ -14,7 +14,7 @@ On the input window you should insert:
 
 ## Example of input command
 
-5 3
+> 5 3
 1 1 E
 RFRFRFRF
 3 2 N
